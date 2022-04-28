@@ -1,8 +1,13 @@
-.{
+.Amazonia{
     margin: 0 auto;
     padding: 0;
+    display: inline-block;
+    width: 70%;
+    height: 70%;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background-color: rgba(94, 94, 13, 0.7);
+    font-family: 'Times New Roman', Times, serif , sans-serif, 'Arial Narrow','Franklin Gothic Medium',  Arial;
+    
 }
 body {
     background-image: url("Amazonia.jpg");
@@ -23,6 +28,7 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 25px;
+    
 }
 #menu-horizontal ul li a:hover { 
     background-color:rgb(99, 221, 99);
@@ -30,7 +36,7 @@ body {
 }
 
 #logoprincipal h1{
-    color: blue;
+    color: white;
     object-position: unset;
     list-style: none;
     text-align: center;  
