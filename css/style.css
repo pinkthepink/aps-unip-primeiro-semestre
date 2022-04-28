@@ -1,0 +1,40 @@
+.{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body {
+    background-image: url("Amazonia.jpg");
+    background-clip: border-box;
+    background-size: cover;
+}
+
+#menu-horizontal ul {
+    list-style: none;
+    padding: 20;
+    background-color: rgb(94, 94, 13);
+}
+#menu-horizontal ul li{
+    display: inline;
+}
+#menu-horizontal ul li a{
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+}
+#menu-horizontal ul li a:hover { 
+    background-color:rgb(99, 221, 99);
+    transition: .3s;  
+}
+
+#logoprincipal h1{
+    color: blue;
+    object-position: unset;
+    list-style: none;
+    text-align: center;  
+    }
+
+
+
