@@ -7,6 +7,10 @@
     box-sizing: border-box;
     background-color: rgba(94, 94, 13, 0.7);
     font-family: 'Times New Roman', Times, serif , sans-serif, 'Arial Narrow','Franklin Gothic Medium',  Arial;
+
+    position: absolute;
+    left: 15%;
+    top: 20%;
     
 }
 body {
@@ -35,12 +39,13 @@ body {
     transition: .3s;  
 }
 
-#logoprincipal h1{
+#logoprincipal {
     color: white;
     object-position: unset;
     list-style: none;
     text-align: center;  
     }
+
 
 
 
