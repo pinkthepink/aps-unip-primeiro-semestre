@@ -1,4 +1,23 @@
+ body {background-color: rgb(94, 94, 13)}
+
+
 #menu-horizontal ul {
-    list-style: none;
-    padding: 20;
-    background-color: rgb(94, 94, 13);
+        list-style: none;
+        padding: 20;
+        background-color: rgb(94, 94, 13);
+    }
+#menu-horizontal ul li{
+        display: inline;
+    }
+#menu-horizontal ul li a{
+        color:white;
+        display: inline-block;
+        text-decoration: none;
+        padding: 25px;
+        
+    }
+#menu-horizontal ul li a:hover { 
+        background-color:rgb(99, 221, 99);
+        transition: .3s;  
+    }
+    
