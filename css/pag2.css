@@ -1,13 +1,13 @@
- body {background-color: rgb(94, 94, 13)}
+ body {background-color: #e4e98d}
 
 
 #menu-horizontal ul {
         list-style: none;
         padding: 20;
 
-        background-color: rgb(167, 165, 58);
+        background-color: #423915;
 
-        background-color: rgb(95, 93, 14);
+        
 
     }
 #menu-horizontal ul li{
@@ -27,7 +27,7 @@
 
     
 #titulo {font-size: 100px;
-        color: rgb(142, 214, 7);
+        color: #423915;
         text-align: center;
     }
 
