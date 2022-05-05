@@ -3,7 +3,7 @@
     padding: 0;
     display: inline-block;
     width: 70%;
-    height: 70%;
+    height: 80%;
     box-sizing: border-box;
     background-color: rgba(94, 94, 13, 0.7);
     font-family: 'Times New Roman', Times, serif , sans-serif, 'Arial Narrow','Franklin Gothic Medium',  Arial;
@@ -45,6 +45,13 @@ body {
     list-style: none;
     text-align: center;  
     }
+
+
+
+
+
+
+
 
 
 
