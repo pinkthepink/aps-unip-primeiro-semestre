@@ -27,9 +27,10 @@ body {background-color: #e4e98d;}
 
 #contato {background-color: rgba(94, 94, 13, 0.7);}
 
-#redessociais {color:#423915;}
+#redessociais {color:#423915; text-align: center;}
 
 .bi bi-instagram {
     width: 30px;
     height: 30px;
+    text-align: center;
 }
