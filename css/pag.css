@@ -15,10 +15,13 @@
 }
 
 body {
-    background-image: url("Amazonia.jpg");
-    background-clip: border-box;
-    background-size: cover;
-}
+        background: url('Amazonia.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+      }
+
 
 #menu-horizontal ul {
     list-style: none;
