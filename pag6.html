@@ -12,7 +12,7 @@
    <title> EduTec Centro de controle Ambiental</title>
 </head>
 
-<body>
+<body style="background-color:#e4e98d;">
    <nav class="navbar navbar-expand-lg" style="background-color: #423915;">  
       <div class="container-fluid">
         <a class="navbar-brand" href="#" style="color:#f2f2f2;" >EDU TEC</a>
@@ -46,12 +46,38 @@
       <p>Tendo em vista o mal que os resíduos dos aparelhos eletrônicos podem causar ao meio ambiente, o melhor a se fazer é descartá-los da forma correta em empresas ou cooperativas aque aceitam os materiais e os levam para a reciclagem, pois este simples ato auxilia o meio embiente e favorece a economia com a reutilização de materiais que possam ser reciclados. </p>
 
       <div style=" background-color: #423915" class="btn-group">
-        <a href="Pag2.html" class="btn btn-primary" style="background-color:#423915">Temas de estudo</a>
-         <a href="pag4.html" class="btn btn-primary active" aria-current="page">Efeito estufa</a>
-         <a href="pag5.html" class="btn btn-primary">Reciclagem</a>
-         <a href="pag6.html" class="btn btn-primary">Lixo eletrônico</a>
-       </div>
+        <div class="btn-group">
+          <a href="Pag2.html" class="btn btn-primary" style="background-color:#423915">Temas de estudo</a>
+          <a href="pag4.html" class="btn btn-primary active" aria-current="page" style="background-color:#423915">Efeito estufa</a>
+          <a href="pag5.html" class="btn btn-primary" style="background-color:#423915">Reciclagem</a>
+          <a href="pag6.html" class="btn btn-primary" style="background-color:#423915">Lixo eletrônico</a>
+        </div>
      
    </div>
+
+   <div id="contato" style="position:fixed;bottom: 0%;width: 100%;">
+    <h2 id="redessociais"> Nossas Redes Sociais: </h2>
+    <div style="margin-left: 3.5%;">
+      <button class="btn" onclick="openInstagram()"><i class="bi bi-instagram"
+            style="font-size: 50px; color: #423915;"> </i></button>
+
+      <button class="btn" onclick="openFacebook()"><i class="bi bi-facebook"
+            style="font-size: 50px; color: #423915;"> </i></button>
+
+      <button class="btn" onclick="openWhatsapp()"><i class="bi bi-whatsapp"
+            style="font-size: 50px; color: #423915;"> </i></button>
+      <script>
+        function openFacebook(){
+          window.open("https://www.facebook.com");
+        }
+        function openWhatsapp(){
+          window.open("https://www.whatsapp.com/")
+        }
+        function openInstagram(){
+          window.open("https://www.instagram.com/")
+        }
+      </script>
+    </div>
+  </div>
 </body>
 </html>
