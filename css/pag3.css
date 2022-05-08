@@ -29,5 +29,10 @@ body {background-color: #e4e98d;}
 
 #redessociais {color:#423915; text-align: center;}
 
-
+#texto{
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
 
