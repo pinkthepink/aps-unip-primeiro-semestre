@@ -1,17 +1,33 @@
 body {background-color: white;}
+
 #titulo {font-size: 100px;
     color: #423915;
     text-align: center;
 }
 
-#contato {background-color: rgba(94, 94, 13, 0.7);}
+#contato {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(94, 94, 13, 0.7);
+}
 
-#redessociais {color:#423915; text-align: center;}
+#icone {
+    left: 43%;
+}
+.redessociais {
+
+    color:#423915;
+}
 
 #texto{
     margin: 20px auto;
     padding: 20px;
     display: inline-block;
     box-sizing: border-box;
+}
+
+h2  {
+    text-align: center;
+    color:#423915
 }
 

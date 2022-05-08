@@ -24,5 +24,11 @@
     left: 30%;
 }
 
+#texto{
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
 
 
