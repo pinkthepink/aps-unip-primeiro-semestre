@@ -50,8 +50,22 @@ body {
     text-align: center;  
     }
 
-
-
+.navbar-nav > .active > a {
+        color: white;
+        background-color: chartreuse;    
+      }
+.nav-item > a:hover {
+        color: green;
+      }
+.nav-item > a:link{
+    color: white;
+}
+.nav-item > a:visited{
+    color: white;
+}
+.nav-item > a:active{
+    color: white;
+}
 
 
 
