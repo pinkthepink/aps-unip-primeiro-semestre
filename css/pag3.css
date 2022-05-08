@@ -31,3 +31,12 @@ h2  {
     color:#423915
 }
 
+.btn {
+    background-color: 0000;
+    border: none;
+    color: #423915;
+    padding-left: 12px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
