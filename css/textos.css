@@ -28,4 +28,18 @@ body {background-color: #e4e98d;}
         text-align: center;
     }
 
+#texto {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    width: 70%;
+    height: 500%;
+    box-sizing: border-box;
+    background-color: rgba(94, 94, 13, 0.7);
+
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
 
