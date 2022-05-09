@@ -10,7 +10,7 @@
     padding: 0;
     display: inline-block;
     width: 70%;
-    height: 500%;
+    padding: 3%;
     box-sizing: border-box;
     background-color: rgba(94, 94, 13, 0.7);
 
@@ -21,7 +21,7 @@
 
 .btn-group {
     position: absolute;
-    left: 30%;
+    left: 25%;
 }
 
 #texto{
