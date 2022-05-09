@@ -1,9 +1,8 @@
 .Amazonia{
     margin: 0 auto;
-    padding: 0;
+    padding: 5%;
     display: inline-block;
     width: 70%;
-    height: 400%;
     box-sizing: border-box;
     background-color: rgba(94, 94, 13, 0.7);
     font-family: 'Times New Roman', Times, serif , sans-serif, 'Arial Narrow','Franklin Gothic Medium',  Arial;
