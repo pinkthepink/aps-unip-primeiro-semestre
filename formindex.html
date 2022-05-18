@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -43,7 +43,7 @@
   <form name="formulário">
     <h1>Fale Conosco</h1>
 
-    <div id="separação">
+    <div id="separação" >
       <label for="nome">Nome</label>
       <input type="text" id="nomeid" placeholder="Fulano(a) de Tal" required="required" name="nome" />
     </div>
@@ -53,13 +53,14 @@
       <input type="tel" id="foneid" placeholder="(11)11111-1111" required name="Telefone"/>
     </div>
   
-    </div id="separação">
+    <div id="separação" >
       <label for="email">E-mail</label>
       <input type="email" id="emailid" placeholder="seunome@email.com" required name="E-mail"/>
     </div>
 
-    <textarea placeholder="Deixe um Comentário"></textarea>
-
+    <div id="separação" class="comentario">
+      <textarea placeholder="Deixe um Comentário"></textarea>
+    </div>
     <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
 
   </form>
