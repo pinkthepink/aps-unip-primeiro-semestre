@@ -6,20 +6,19 @@
     box-sizing: border-box;
     background-color: rgba(94, 94, 13, 0.7);
     font-family: 'Times New Roman', Times, serif , sans-serif, 'Arial Narrow','Franklin Gothic Medium',  Arial;
-
     position: absolute;
     left: 15%;
     top: 20%;
-    
 }
 
-body {
-        background: url('Amazonia.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-      }
+#principal {
+    background-image:url('Amazonia.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
 
 
 #menu-horizontal ul {
@@ -50,18 +49,21 @@ body {
     text-align: center;  
 }
 
-nav {
-    background: rgb(39,106,59);
-    background: linear-gradient(90deg, rgba(39,106,59,1) 0%, rgba(117,193,110,1) 50%, rgba(7,102,33,1) 100%);
+#video {
+    position: absolute;
+    height: 10px;
 }
 
-.nav-item > a:hover {
-        color: green;
-      }
-      .nav-item > a {
-        color: white;
-      }
+#titulo {
+    position: absolute;
+    top: 0;
+}
 
+
+#container {
+    position: fixed;
+    bottom: 0;
+}
 
 
 
