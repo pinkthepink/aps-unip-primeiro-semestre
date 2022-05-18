@@ -58,7 +58,7 @@ textarea {
     height: 120px;
     line-height: 20px;
     max-width: 400px;
-    margin-left: 20%;
+    padding-left: 10px;
 }
 
 form label {
