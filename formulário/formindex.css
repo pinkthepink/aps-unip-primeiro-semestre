@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: rgb(83, 175, 83);
+    max-width: 500px;
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(152, 191, 152);
+    text-shadow: 5px 5px 5px rgb(6, 47, 30);
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: rgb(113, 214, 140);
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #42fc89;
+    box-shadow: 5px 0px 9px #316613;
+    background-color: #66ffbf;
+    color: rgb(71, 130, 81);
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #acdcae;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: rgb(95, 152, 88);
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #bee8d4;
+    font-weight: bold;
+}
+
