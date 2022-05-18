@@ -40,7 +40,6 @@ body {
 video {
     position: absolute;
     overflow: hidden;
-    filter: invert(100%);
     max-width: 100%;
     margin: auto;
     object-fit: fill;
