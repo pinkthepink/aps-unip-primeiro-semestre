@@ -5,48 +5,15 @@ body {background-color: white;}
     text-align: center;
 }
 
-#contato {
+#icones {
     position: absolute;
     width: 100%;
-    background-color: rgba(94, 94, 13, 0.7);
-}
-
-<<<<<<< HEAD
-#redessociais {color:#423915; text-align: center;}
-
-.bi bi-instagram {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-}
-=======
-#icone {
-    left: 43%;
-}
-.redessociais {
-
-    color:#423915;
-}
-
-#texto{
-    margin: 20px auto;
-    padding: 20px;
-    display: inline-block;
-    box-sizing: border-box;
+    background-color: rgb(7,102,33);
+  
 }
 
 h2  {
     text-align: center;
-    color:#423915
+    color:rgb(117,193,110);
 }
 
-.btn {
-    background-color: 0000;
-    border: none;
-    color: #423915;
-    padding-left: 12px 12px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
->>>>>>> 1bb4b92ce70779fff2b19bcbf82bf89151eea351
