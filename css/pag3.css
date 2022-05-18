@@ -1,32 +1,17 @@
-body {background-color: #e4e98d;}
-
-#menu-horizontal ul {
-    list-style: none;
-    padding: 20;
-    background-color: #423915;
-}
-#menu-horizontal ul li{
-    display: inline;
-}
-#menu-horizontal ul li a{
-    color:white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 25px;
-    
-}
-#menu-horizontal ul li a:hover { 
-    background-color:rgb(99, 221, 99);
-    transition: .3s;  
-}
+body {background-color: white;}
 
 #titulo {font-size: 100px;
     color: #423915;
     text-align: center;
 }
 
-#contato {background-color: rgba(94, 94, 13, 0.7);}
+#contato {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(94, 94, 13, 0.7);
+}
 
+<<<<<<< HEAD
 #redessociais {color:#423915; text-align: center;}
 
 .bi bi-instagram {
@@ -34,3 +19,34 @@ body {background-color: #e4e98d;}
     height: 30px;
     text-align: center;
 }
+=======
+#icone {
+    left: 43%;
+}
+.redessociais {
+
+    color:#423915;
+}
+
+#texto{
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h2  {
+    text-align: center;
+    color:#423915
+}
+
+.btn {
+    background-color: 0000;
+    border: none;
+    color: #423915;
+    padding-left: 12px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+>>>>>>> 1bb4b92ce70779fff2b19bcbf82bf89151eea351

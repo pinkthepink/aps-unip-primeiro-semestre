@@ -1,0 +1,32 @@
+nav {
+    background: rgb(39,10b6,59);
+    background: linear-gradient(90deg, rgba(39,106,59,1) 0%, rgba(117,193,110,1) 50%, rgba(7,102,33,1) 100%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 20;
+}
+
+nav li{
+    display: inline;
+}
+
+nav ul li a{
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav ul li a:hover { 
+    background-color:rgb(99, 221, 99);
+    transition: .3s;  
+}
+
+#logoprincipal {
+    color: white;
+    object-position: unset;
+    list-style: none;
+    text-align: center;  
+}
