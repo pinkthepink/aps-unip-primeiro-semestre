@@ -12,6 +12,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulário de Contato</title>
+
+
 </head>
 
 <body>
@@ -45,12 +47,13 @@
 
     <div id="separação" >
       <label for="nome">Nome</label>
-      <input type="text" id="nomeid" placeholder="Fulano(a) de Tal" required="required" name="nome" />
+      <input type="text" required id="nomeid" placeholder="Fulano(a) de Tal" required="required" name="nome" />
     </div>
+    
 
     <div id="separação">
       <label for="fone">Telefone</label>
-      <input type="tel" id="foneid" placeholder="(11)11111-1111" required name="Telefone"/>
+      <input type="tel" required id="foneid" placeholder="(11)11111-1111" pattern="[0-9] {2}-[0-9] {5}-[0-9] {4}" name="Telefone"/>
     </div>
   
     <div id="separação" >
@@ -58,10 +61,14 @@
       <input type="email" id="emailid" placeholder="seunome@email.com" required name="E-mail"/>
     </div>
 
+    
+
     <div id="separação" class="comentario">
       <textarea placeholder="Deixe um Comentário"></textarea>
     </div>
     <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+    
 
   </form>
 </body>
