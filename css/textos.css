@@ -1,13 +1,24 @@
+#titulo {
+    text-align: center;
+    font-size: 500%;
+}
+h2{
+    text-align: center;
+}
+
+#imagem {
+    position: relative;
+    left: 19%;
+    }
+
 #texto {
-    margin: 0 auto;
-    padding: 0;
+   
     display: inline-block;
-    width: 70%;
-    padding: 3%;
+    width: 90%;
     box-sizing: border-box;
-    background-color: rgba(94, 94, 13, 0.7);
+    background-color: rgb(117,193,110);
     position: absolute;
-    left: 15%;
+    left: 8%;
     top: 30%;
 }
 
