@@ -50,7 +50,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     -moz-border-radius: 5px;
     border: 1px solid;
     color: rgb(95, 152, 88);
-    margin: 0 auto;
+    
 }
 
 textarea {
@@ -69,6 +69,7 @@ form label {
 
 #separação {
     margin: 10px auto;
+
 }
 
 #nomeid {
