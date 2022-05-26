@@ -24,9 +24,4 @@ nav ul li a:hover {
     transition: .3s;  
 }
 
-#logoprincipal {
-    color: white;
-    object-position: unset;
-    list-style: none;
-    text-align: center;  
-}
+
