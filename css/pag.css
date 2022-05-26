@@ -191,8 +191,6 @@ section {
     text-decoration: none;
   }
   
-
-
 #menu-horizontal ul {
     list-style: none;
     padding: 20;
@@ -248,16 +246,7 @@ video {
     text-align: center;
 }
 
-.horario {
-  background-image: url('../visual/office.jpg');
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  background-size: 100% 100%;
-}
+
 
 
 
